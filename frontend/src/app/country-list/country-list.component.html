@@ -1,0 +1,19 @@
+<h3> Country List</h3>
+<table class = "table table-sm">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <!-- El bucle recorre cada usuario de countries-->
+    <!-- Este archivo html está asociado a su respectivo .ts -->
+    <!-- countries es una propiedad definida en el .ts countries: Country[]-->
+    <tbody>
+        <tr *ngFor = "let u of countries">
+            <!-- {{}} Es interpolación para acceder a los campos -->
+            <td>{{u.id}}</td>
+            <td>{{u.name}}</td>
+        </tr>
+    </tbody>
+</table>

@@ -11,6 +11,7 @@ import javax.validation.Valid;
 import java.util.List;
 import java.util.ArrayList;
 
+@CrossOrigin
 @RestController
 @RequestMapping("/countries")
 public class CountryController {
