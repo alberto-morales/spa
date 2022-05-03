@@ -2,6 +2,8 @@
 
 ## Prerequisites
 
+// TODO
+
 ## How to run
 (folder spa/backend)
 mvn clean package spring-boot:repackage
